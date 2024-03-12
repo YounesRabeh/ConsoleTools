@@ -18,6 +18,7 @@ public class Test1 {
         println(Colors.GREEN_BOLD, "sssss");
         resetText_color();
         println("io sono normale"); println(Colors.GREEN_BACKGROUND, "io");
+
     }
 
 }
