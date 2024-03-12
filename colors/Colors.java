@@ -1,8 +1,10 @@
 package colors;
 
-public class Colors {
+public final class Colors {
     //System.out.println(Lib.ConsoleColors.RED + "RED COLORED" +
     //Lib.ConsoleColors.RESET + " NORMAL");
+
+    private Colors(){}
 
     // Reset
     public static final String RESET = "\033[0m";  // Text Reset
