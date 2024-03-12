@@ -17,7 +17,7 @@ public class Main {
         printlnText("io sono blu ");
         printlnText(Colors.GREEN_BOLD, "sssss");
         resetText_color();
-        printText("io sono normale");
+        printText("io sono normale \n");
     }
 
 }
