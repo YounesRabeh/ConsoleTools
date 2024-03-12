@@ -6,7 +6,7 @@ import static styles.Styles.*;
 import static input.Input.*;
 
 public class Test1 {
-    Test1(){
+    public Test1(){
         print(Colors.CYAN_BRIGHT, "Demetrio ::");
         print(Colors.CYAN_BRIGHT, "un uomo ");
         setText_color(Colors.BLUE_BOLD);
