@@ -1,12 +1,15 @@
 package src;
 
 import static colors.Colors.RESET;
+import static styles.Styles.isGlobalColorSet;
+import static styles.Styles._GLOBAL_COLOR_;
 
 public final class Tools  {
     public static void printText(String color, String text){
         System.out.print(color + text + RESET);
     }
     public static void printText(String text){
+        if (isGlobalColorSet()) text = _GLOBAL_COLOR_ + text;
         System.out.print(text);
     }
 
@@ -15,6 +18,7 @@ public final class Tools  {
     }
 
     public static void printlnText(String text){
-        System.out.println(text);
+        if (isGlobalColorSet()) text = _GLOBAL_COLOR_ + text;
+        System.out.print(text);
     }
 }
