@@ -19,4 +19,5 @@ public class Main {
         resetText_color();
         printText("io sono normale");
     }
+
 }
